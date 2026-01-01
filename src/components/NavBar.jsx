@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Navbar({ onProfileClick }) {
+export default function NavBar({ onProfileClick }) {
   const logoUrl = `/src/assets/logo/v-logo-main.png`;
 
   const today = new Date().toLocaleDateString("en-GB", {

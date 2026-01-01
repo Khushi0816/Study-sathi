@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../components/Navbar";
+import NavBar from "../components/Navbar";
 import NotesPanel from "../components/NotesPanel";
 import FlashcardBox from "../components/FlashcardBox";
 import PomodoroMini from "../components/PomodoroMini";
@@ -30,7 +30,7 @@ export default function Dashboard() {
     <div className="min-h-screen bg-[#12081F] flex flex-col">
 
       {/* 🔥 NAVBAR BUTTON NOW OPENS DROPDOWN */}
-      <Navbar onProfileClick={() => setShowDropdown(!showDropdown)} />
+      <NavBar onProfileClick={() => setShowDropdown(!showDropdown)} />
 
       {/* PROFILE DROPDOWN */}
       <ProfileDropdown open={showDropdown} onClose={() => setShowDropdown(false)} />
