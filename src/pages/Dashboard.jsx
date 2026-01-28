@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import NavBar from "../components/Navbar";
+import NavBar from "../components/NavBar";
 import NotesPanel from "../components/NotesPanel";
 import FlashcardBox from "../components/FlashcardBox";
 import PomodoroMini from "../components/PomodoroMini";
